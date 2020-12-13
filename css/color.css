@@ -1,0 +1,865 @@
+.paper {
+    position: absolute;
+    /* background-image: url("file:///Users/janghyeon-yeong/Downloads/cssimg/img/background%202.png"); */
+    z-index: 1;
+    top:0px;
+    opacity: 100%;
+}
+.overlay {
+    /* mix-blend-mode: overlay; */
+    z-index: 10;
+}
+
+.original {
+    width: 1920px;
+    height: 1095px;
+    position: absolute;
+    opacity: 80%;
+    color:#fafafa;
+    
+}
+.background {
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+
+    background-color:#ffffff;
+    
+}
+
+.year {
+    font-family: 'Righteous', cursive;
+    font-size:64px;
+    position: absolute;
+    top:130px;
+    left:180px;
+    color: #151f28;
+    z-index: 10;
+}
+
+.spot {
+    width:180px;
+    height:510px;
+    position: absolute;
+    top:240px;
+    left:158px;
+    z-index: 10;
+   
+}
+
+
+
+.paju {
+    font-family: 'Gugi', cursive;
+    font-size: 58px;
+    writing-mode: tb-rl;
+    position: absolute;
+    top:16px;
+    left: 53px;
+    color: #151f28;
+    z-index: 10;
+}
+.circle {
+    fill: none;
+    stroke: #440088;
+    stroke-width: 6;
+    stroke-miterlimit: 10;
+    animation: circlecolor 10s linear infinite;
+    z-index: 10;
+}
+
+@keyframes circlecolor {
+    15% {stroke: #ff2800;}
+    30% {stroke:#f9c270;}
+    45% {stroke:#fcee21;}
+    60% {stroke:#bfda83;}
+    85% {stroke:#0047ab;}
+    100% {stroke:#440088;}
+    /*70% {stroke:#151F28;}*/
+}
+
+
+.name {
+    font-family: 'Gugi', cursive;
+    font-size: 46px;
+    position: absolute;
+    top:855px;
+    left: 153px;
+    color: #151f28;
+    z-index: 10;
+}
+
+.place {
+    width:330px;
+    height:800px;
+    position: absolute;
+    top:140px;  
+    left: 1530px;
+    z-index: 10;
+    /* background-color:gray; */
+    /* absolute top 140px left 1530px*/
+
+}
+
+.box {
+    width:25px;
+    height:15px;
+    background-color:black;
+    position: absolute;
+    top:0px;
+    
+    z-index: 10;
+}
+
+.number1 {
+    font-family: 'Righteous', cursive;
+    font-size:40px;
+    position: absolute;
+    top:0.2px;
+    left:158px;
+    color: #151f28;
+    
+}
+
+.time1 {
+    font-family: 'Gugi', cursive;
+    font-size:24px;
+    position: absolute;
+    top:55px;
+    left:95px;
+    color: #151f28;
+    letter-spacing: -1px;
+}
+
+.time1-1 {
+    font-family: 'Gugi', cursive;
+    font-size:26px;
+    position: absolute;
+    top:96px;
+    left:125px;
+    color: #151f28;
+    letter-spacing: -1px;
+}
+
+.time1-2 {
+    font-family: 'Gugi', cursive;
+    font-size:28px;
+    position: absolute;
+    top:140px;
+    left:40px;
+    color: #151f28;
+    
+}
+
+.time1-3 {
+    font-family: 'Gugi', cursive;
+    font-size:28px;
+    position: absolute;
+    top:175px;
+    left:17px;
+    color: #151f28;
+    
+}
+
+.number2 {
+    font-family: 'Righteous', cursive;
+    font-size:40px;
+    position: absolute;
+    top:240px;
+    left:151px;
+    color: #151f28;
+}
+
+.time2 {
+    font-family: 'Gugi', cursive;
+    font-size:24px;
+    position: absolute;
+    top:293px;
+    left:95px;
+    color: #151f28;
+    letter-spacing: -1px;
+}
+
+.time2-1 {
+    font-family: 'Gugi', cursive;
+    font-size:26px;
+    position: absolute;
+    top:334px;
+    left:125px;
+    color: #151f28;
+    letter-spacing: -1px;
+}
+
+.time2-2 {
+    font-family: 'Gugi', cursive;
+    font-size:28px;
+    position: absolute;
+    top:375px;
+    left:90px;
+    color: #151f28;
+    
+}
+
+.time2-3 {
+    font-family: 'Gugi', cursive;
+    font-size:28px;
+    position: absolute;
+    top:413px;
+    left:55px;
+    color: #151f28;
+    
+}
+
+.number3 {
+    font-family: 'Righteous', cursive;
+    font-size:40px;
+    position: absolute;
+    top:479px;
+    left:151px;
+    color: #151f28;
+}
+
+.time3 {
+    font-family: 'Gugi', cursive;
+    font-size:24px;
+    position: absolute;
+    top:532px;
+    left:95px;
+    color: #151f28;
+    letter-spacing: -1px;
+}
+
+.time3-1 {
+    font-family: 'Gugi', cursive;
+    font-size:26px;
+    position: absolute;
+    top:573px;
+    left:125px;
+    color: #151f28;
+    letter-spacing: -1px;
+}
+
+.time3-2 {
+    font-family: 'Gugi', cursive;
+    font-size:28px;
+    position: absolute;
+    top:615px;
+    left:53px;
+    color: #151f28;
+    
+}
+
+
+.where-1 {
+    font-family: 'Gugi', cursive;
+    font-size:25px;
+    position: absolute;
+    top:708px;
+    left:62px;
+    color: #151f28;
+    
+}
+
+
+.where-2 {
+    font-family: 'Gugi', cursive;
+    font-size:25px;
+    position: absolute;
+    top:748px;
+    left:70px;
+    color: #151f28;
+    
+}
+
+ .writer {
+    width:594px;
+    height:100px;
+    position: absolute;
+    top:965px;
+    left:654px;
+     /* absolute top 965 left 654*/
+     z-index: 10;
+}
+
+.who {
+    font-family: 'Gugi', cursive;
+    font-size: 28px;
+    position: absolute;
+    top:28px;
+    left: 268px;
+    color: #151f28;
+    z-index: 10;
+}
+
+.job {
+    font-family: 'Gugi', cursive;
+    font-size: 20px;
+    position: absolute;
+    top:72px;
+    left: 137px;
+    color: #151f28;
+    letter-spacing: -0.6px;
+
+}
+
+.morphing1 {
+    position: absolute;
+    top: 55px;
+    left: 46px;
+    width:23px;
+    height:23px;
+    border-radius: 100%;
+    background-color: #0047ab;
+    animation: morph 4s linear infinite;
+}
+
+@keyframes morph {
+   0% {    
+    width:23px;
+    height:23px;
+    border-radius: 100%;
+    background-color: #0047ab;}
+    33% {
+        width:23px;
+        height:23px;
+        transform: rotate(45deg);
+        border-radius: 0%;
+        background-color: #bfda83;}
+    66% {
+            width:23px;
+            height:23px;
+            transform: rotate(45deg);
+            border-radius: 0%;
+            background-color: #bfda83;}
+    100% {
+            width:23px;
+            height:23px;
+            border-radius: 100%;
+            background-color: #0047ab;}
+
+
+
+
+}
+
+
+.morphing2 {
+    position: absolute;
+    top: 55px;
+    right: 35px;
+    width:23px;
+    height:23px;
+    transform: rotate(45deg);
+    background-color: #bfda83;
+    animation: morph2 4s linear infinite;
+    animation-delay: 0.8s;
+}
+
+
+@keyframes morph2 {
+    0% {
+        width:23px;
+        height:23px;
+        transform: rotate(45deg);
+        border-radius: 0%;
+        background-color: #bfda83;}
+     33% {
+        width:23px;
+        height:23px;
+        border-radius: 100%;
+        background-color: #0047ab;}
+     /*50% {
+        width:23px;
+        height:23px;
+        border-radius: 100%;
+        background-color: #0047ab;}*/
+     66% {
+            width:23px;
+            height:23px;
+            transform: rotate(45deg);
+            border-radius: 0%;
+            background-color: #bfda83;}
+     100% {
+        width:23px;
+        height:23px;
+        transform: rotate(45deg);
+        border-radius: 0%;
+        background-color: #bfda83;}
+ }
+
+
+.title-circle1 {
+    position: absolute;
+    top: 105px;
+    left: 444px;
+    width:386px;
+    height:386px;
+    border-radius: 100%;
+    border: 10px solid #151f28;
+    z-index: 10;
+}
+
+.line37 {
+    fill: none;
+    stroke: #FF2800;
+    stroke-width: 27;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 84;
+    stroke-dashoffset: -83;
+    animation: linedash37 8s linear infinite;
+}
+
+@keyframes linedash37 {
+    30% {
+        stroke-dashoffset: 83;
+    }
+    50%{
+        stroke-dashoffset: 83;
+    }
+    80% {
+        stroke-dashoffset: -83;
+    }
+    100% {
+        stroke-dashoffset: -83;
+    }
+
+}
+
+
+.title-circle2 {
+    position: absolute;
+    top: 105px;
+    left: 766px;
+    width:386px;
+    height:386px;
+    border-radius: 100%;
+    border: 10px solid #151f28;
+    z-index: 10;
+}
+
+.line66 {
+    fill: none;
+    stroke: #0047AB;
+    stroke-width: 22;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 87;
+    stroke-dashoffset: -82;
+    animation: linedash66 7s ease-in-out infinite;
+}
+
+@keyframes linedash66 {
+    30% {
+        stroke-dashoffset: 86;
+    }
+    50%{
+        stroke-dashoffset: 86;
+    }
+    80% {
+        stroke-dashoffset: -82;
+    }
+    100% {
+        stroke-dashoffset: -82;
+    }
+}
+
+
+.title-circle3 {
+    position: absolute;
+    top: 105px;
+    left: 1089px;
+    width:386px;
+    height:386px;
+    border-radius: 100%;
+    border: 10px solid #151f28;
+    z-index: 10;
+}
+
+.title-circle4 {
+    position: absolute;
+    top: 441px;
+    left: 880px;
+    width:157px;
+    height:157px;
+    border-radius: 100%;
+    border: 10px solid #151f28;
+    z-index: 10;
+}
+
+
+.title-circle5 {
+    position: absolute;
+    top: 548px;
+    left: 444px;
+    width:386px;
+    height:386px;
+    border-radius: 100%;
+    border: 10px solid #151f28;
+    z-index: 10;
+}
+.line39{
+    fill: none;
+    stroke: #FCEE21;
+    stroke-width: 26.5;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 88;
+    stroke-dashoffset: -88;
+    animation: linedash38 7s linear infinite;
+}
+
+@keyframes linedash38 {
+    30% {
+        stroke-dashoffset: 86;
+    }
+    50%{
+        stroke-dashoffset: 86;
+    }
+    80% {
+        stroke-dashoffset: -86;
+    }
+    100% {
+        stroke-dashoffset: -86;
+    }
+}
+
+
+/*
+        <!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In  -->
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            width="79.74px" height="150.87px" viewBox="0 0 79.74 150.87"
+            style="overflow:visible;enable-background:new 0 0 79.74 150.87; position:absolute; top:655px; left:528px"
+            xml:space="preserve">
+            <style type="text/css">
+                .line38 {
+                    fill: none;
+                    stroke: #FCEE21;
+                    stroke-width: 26;
+                    stroke-linecap: round;
+                    stroke-miterlimit: 10;
+                }
+            </style>
+            <defs>
+            </defs>
+            <line class="line38" x1="66.74" y1="13" x2="13" y2="137.87" />
+        </svg>
+
+.line38 {
+    fill: none;
+    stroke: #FCEE21;
+    stroke-width: 26;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 135;
+    stroke-dashoffset: -135;
+    animation: linedash38 10s linear infinite;
+}
+
+@keyframes linedash38 {
+    30% {
+        stroke-dashoffset: 132;
+    }
+    50%{
+        stroke-dashoffset: 132;
+    }
+    80% {
+        stroke-dashoffset: -132;
+    }
+    100% {
+        stroke-dashoffset: -132;
+    }
+}*/    
+.title-circle6 {
+    position: absolute;
+    top: 548px;
+    left: 766px;
+    width:386px;
+    height:386px;
+    border-radius: 100%;
+    border: 10px solid #151f28;
+    z-index: 10;
+}
+
+.line40 {
+    fill: none;
+    stroke: #F9C270;
+    stroke-width: 27;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 134;
+    stroke-dashoffset: -134;
+    animation: linedash40 8s ease-in-out infinite;
+    animation-delay: 1s
+}
+
+@keyframes linedash40 {
+    30% {
+        stroke-dashoffset: 132;
+    }
+    50%{
+        stroke-dashoffset: 132;
+    }
+    80% {
+        stroke-dashoffset: -134;
+    }
+    100% {
+        stroke-dashoffset: -134;
+    }
+}
+.title-circle7 {
+    position: absolute;
+    top: 548px;
+    left: 1089px;
+    width:386px;
+    height:386px;
+    border-radius: 100%;
+    border: 10px solid #151f28;
+    z-index: 10;
+}
+
+.line31{
+    fill: #151F28;
+    animation: dotopacity 3s ease-in-out infinite;
+}
+@keyframes dotopacity {
+    0% {fill: #151F28;}
+    30% {fill: #440088;}
+    70% {fill: #440088;}
+    100% {fill: #151F28;}
+}
+
+.line {
+    fill: none;
+    stroke: #ff2800;
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray:138;
+    stroke-dashoffset: 0;
+    animation: linedash 2s linear infinite;
+}
+
+
+@keyframes linedash {
+    
+    to {
+        stroke-dashoffset: 276;
+    }
+}    
+    
+
+.line2 {
+    fill: none;
+    stroke: #fcee21;
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray:138;
+    stroke-dashoffset: 276;
+    animation: linedash2 2s linear infinite;
+}    
+    
+@keyframes linedash2 {
+        
+        to {
+            stroke-dashoffset: 0;
+        }
+        
+}        
+
+.line3 {
+    fill: none;
+    stroke: #0047AB;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 140;
+    stroke-dashoffset: 140;
+    animation: linedash3 2.2s ease-in-out infinite;
+}
+
+@keyframes linedash3 {
+    to {
+        stroke-dashoffset:-140;
+    }
+}
+
+.line4 {
+    fill: none;
+    stroke: #0047AB;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 88;
+    stroke-dashoffset: 88;
+    animation: linedash4 2.2s ease-in-out infinite;
+}
+
+@keyframes linedash4 {
+    to {
+        stroke-dashoffset:-88;
+    }
+
+}
+
+.line5 {
+    fill: none;
+    stroke: #BFDA83;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 136;
+    stroke-dashoffset: -136;
+    animation: linedash5 2.5s ease-in-out infinite;
+}
+
+@keyframes linedash5 {
+    to  {
+        stroke-dashoffset: 136;
+    }
+}
+.line36 {
+    fill: none;
+    stroke: #BFDA83;
+    stroke-width: 22;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 165;
+    stroke-dashoffset: -163;
+    animation: linedash36 9s ease-in-out infinite;
+}
+
+@keyframes linedash36 {
+    20% {
+        stroke-dashoffset: -163;
+    }
+
+    50% {
+        stroke-dashoffset: 163;
+    }
+    70% {
+        stroke-dashoffset: 163;
+    }
+    100%{
+        stroke-dashoffset: -163;
+    }
+
+}
+.line6 {
+    fill: none;
+    stroke: #BFDA83;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 88;
+    stroke-dashoffset: -88;
+    animation: linedash6 2.5s ease-in-out infinite;
+}
+
+@keyframes linedash6 {
+    to  {
+        stroke-dashoffset: 88;
+    }
+}
+
+.line7 {
+    fill: none;
+    stroke: #F9C270;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 140;
+    stroke-dashoffset: 140;
+    animation: linedash7 2s ease-in-out infinite;
+}
+
+@keyframes linedash7 {
+        to {
+            stroke-dashoffset:-140;
+        }
+}
+
+.line8 {
+        fill: none;
+        stroke: #F9C270;
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-dasharray: 88;
+        stroke-dashoffset: 88;
+        animation: linedash8 2s ease-in-out infinite;
+}
+    
+@keyframes linedash8 {
+        to {
+            stroke-dashoffset:-88;
+        }
+    
+}
+    
+
+
+.line9 {
+    fill: none;
+    stroke: #440088;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    animation: lineopacity 2s ease-in-out infinite;
+}
+
+@keyframes lineopacity {
+    0% {opacity: 0%;}
+    30% {opacity:100%}
+    70% {opacity:100%}
+    100% {opacity: 0%;}
+}
+
+.line10 {
+    fill: none;
+    stroke: #440088;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    animation: lineopacity 2s ease-in-out infinite;
+}
+
+@keyframes lineopacity2 {
+    0% {opacity: 100%;}
+    30% {opacity:0%}
+    70% {opacity:0%}
+    100% {opacity: 100%;}
+}
+
+
+
+
+
+
+/* <!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In  -->
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                y="0px" width="21.97px" height="21.97px" viewBox="0 0 21.97 21.97"
+                style="overflow:visible;enable-background:new 0 0 21.97 21.97; position:absolute; top:201px; left:853px;"
+                xml:space="preserve">
+                <style type="text/css">
+                    .dot12 {
+                        fill: #0047AB;
+                    }
+                </style>
+                <defs>
+                </defs>
+                <path class="dot12" d="M21.97,10.98c0,3.04-1.07,5.63-3.21,7.77c-2.14,2.14-4.73,3.21-7.77,3.21c-3.04,0-5.63-1.07-7.77-3.21
+	C1.07,16.62,0,14.03,0,10.98c0-3.04,1.07-5.63,3.21-7.77C5.35,1.07,7.94,0,10.98,0c3.04,0,5.63,1.07,7.77,3.21
+	C20.9,5.35,21.97,7.94,21.97,10.98z" />
+            </svg> */ 
+
+
+
+
+
+            <div class="paper"><img src="img/background 2.png" style="width: 1920px; height: 1095px;"> </div>
+
+
